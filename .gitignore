@@ -1,0 +1,7 @@
+.env
+data/
+__pycache__/
+*.pyc
+.venv/
+*.log
+# 注意：analysis/output/ 下的图表需要提交，所以不忽略 output/
