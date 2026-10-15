@@ -74,3 +74,8 @@ cp .env.example .env    # 然后填写 MySQL 密码
 - [x] DWS 层聚合（城市 / 城市×行政区 / 地铁分档，均含中位数）
 - [x] 影响因素分析与图表（`analysis/factor_analysis.py` → 6 张图 + `docs/analysis.md`）
 - [ ] 可视化看板（Nuxt + ECharts，可选）
+
+## 许可
+
+- **代码**：[MIT License](LICENSE) © 2026 kr8s888
+- **数据**：来自 Kaggle 公开数据集 [`xiaopaohadoop/second-hand-housing-dataset`](https://www.kaggle.com/datasets/xiaopaohadoop/second-hand-housing-dataset)，版权与许可归原数据集所有；本仓库**不包含数据文件**（`data/` 已在 `.gitignore` 中）。
